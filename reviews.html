@@ -1,17 +1,27 @@
 ---
 title: Reviews
-layout: default
+layout: base
 ---
 
 <div class="row align-items-center animation animated fadeInUp" data-animation="fadeInUp" data-animation-delay="0.1s" style="animation-delay: 0.1s; opacity: 1;">
     
     <div class="heading_s1"> 
-      <h2>ExactData Reviews</h2>
+      <h3>Past Client Reviews</h3>
     </div>
     <div class="col-8">
-        <p>
-        	No content yet...
-        </p>
+        <ul class="recent_post list_none">
+	        {% for review in site.data.reviews %}
+	        <li>
+	            <blockquote class="blockquote quote_style2">
+	              <b><i>{{review.job}}</i></b>  
+	              <p>{{review.comment}}</p>
+	              <footer class="blockquote-footer"><i>posted by</i> <b>{{review.client}}</b>, <i>from</i> <a target="_blank" href="{{site.upwork_profile_url}}">Upwork</a></footer>
+	            </blockquote>
+	            <br/>
+	        </li>
+	        {% endfor %}
+	        
+	    </ul>
     </div>
 
 </div>
