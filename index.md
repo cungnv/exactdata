@@ -1,6 +1,8 @@
 ---
 title: Home
 layout: default
+keywords: web scraping services, reliable web scraping services, best web scraping services, custom web scraping service
+description: exactdata provide reliable web scraping services, deliver exactly what you need.
 ---
 
 <div class="row align-items-center animation animated fadeInUp" data-animation="fadeInUp" data-animation-delay="0.1s" style="animation-delay: 0.1s; opacity: 1;">
