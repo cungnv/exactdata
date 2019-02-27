@@ -19,8 +19,8 @@ description: exactdata provide reliable web scraping services, deliver exactly w
     <div class="list_style_5 color_blue">
     	<h6>Typical web scraping requests:</h6>
         <ul>
-            <li><i>One-off data scrape</i>: to extract data from a given website, and just deliver the final results. </li>
-            <li><i>Build product intelligence system</i>: to setup a system that will scrape product data from websites and deliver results to you daily/weekly basis.</li>
+            <li><i>Product price data scrape</i>: to scrape websites for product price, deails and images </li>
+            <li><i>Price monitoring</i>: to setup a system that will scrape product data from websites and deliver results to you daily/weekly basis.</li>
             <li><i>Build a web scraping tool</i>: to create a web scraping tool so that you can use it yourself, on-demand.</li>
             <li><i>Emails extraction</i>: to crawl a large list of websites and extract the contact emails. We can also help you find the website list based on keyword/regions.</li>
             
