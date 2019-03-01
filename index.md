@@ -1,6 +1,6 @@
 ---
-title: Home
-layout: default
+title: home
+layout: home
 keywords: web scraping services, reliable web scraping services, best web scraping services, custom web scraping service
 description: exactdata provide reliable web scraping services, deliver exactly what you need.
 ---

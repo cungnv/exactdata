@@ -16,7 +16,11 @@
 {%endif%}
 
 <!-- SITE TITLE -->
-<title>{{page.title}} | {{site.title}}</title>
+{% if page.title == 'home' %}
+    <title>{{site.title}}</title>
+{% else %}
+    <title>{{page.title}} | {{site.title}}</title>
+{% endif %}    
 <!-- Favicon Icon -->
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 <!-- Animation CSS -->
@@ -110,7 +114,7 @@ function gtag_report_conversion(url) {
 <header class="header_wrap dark_skin hover_menu_style2">
   <div class="container">
     <nav class="navbar navbar-expand-lg"> 
-    	<a class="navbar-brand page-scroll" href="index.html">
+    	<a class="navbar-brand page-scroll" href="/">
             <img  src="assets/images/logo.png" alt="logo" />
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="ion-android-menu"></span> </button>
@@ -139,36 +143,12 @@ function gtag_report_conversion(url) {
     </nav>
   </div>
 </header>
-<!-- START HEADER --> 
+<!-- END HEADER --> 
 
-<!-- START SECTION BANNER -->
-{% include banner.html %}
-<!-- END SECTION BANNER --> 
-
-<!-- START SECTION BLOG -->
-<section>
-	<div class="container">
-    	<div class="row">
-        	<div class="col-lg-8">
-            	{{content}}
-
-            </div>
-
-            <div class="col-lg-4 mt-lg-0 mt-4 pt-3 pt-lg-0">
-            	<div class="sidebar">
-                    <div class="widget">
-                        {% include request_form.html %}
-                    </div>
-
-                </div>
-            </div>
-        </div>
-        
-    </div>
-</section>
-<!-- END SECTION BLOG -->
+{{content}}
 
 <!-- START FOOTER SECTION --> 
+
 <footer>
 	<div class="top_footer text_white">
         <div class="container">
