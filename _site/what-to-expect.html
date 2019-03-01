@@ -42,6 +42,46 @@
 
 <link rel="stylesheet" href="assets/css/custom.css">
 
+
+
+
+
+<!-- Global site tag (gtag.js) - Google Ads: 1026954787 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-1026954787"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+
+  gtag('config', 'AW-1026954787'); // Conversions tracking
+
+  gtag('config', 'UA-135297986-1'); //Google Analytics
+
+</script>
+
+
+
+
+<!-- Event snippet for quote request conversion page
+In your html page, add the snippet and call gtag_report_conversion when someone clicks on the chosen link or button. -->
+<script>
+function gtag_report_conversion(url) {
+  var callback = function () {
+    if (typeof(url) != 'undefined') {
+      window.location = url;
+    }
+  };
+  gtag('event', 'conversion', {
+      'send_to': 'AW-1026954787/wQFTCOmnhpYBEKOs2OkD',
+      'event_callback': callback
+  });
+  return false;
+}
+</script>
+
+
+
 </head>
 
 <body>
@@ -98,34 +138,34 @@
 <!-- START HEADER --> 
 
 <!-- START SECTION BANNER -->
-<section class="banner_section background_bg parallax_bg" data-parallax-speed="0.5" data-parallax-bg-image="assets/images/banner.jpg">
-
-    <div class="banner_slide_content">
-        <div class="container"><!-- STRART CONTAINER -->
-            <div class="row justify-content-center">
-                <div class="col-md-8 col-sm-12">
-                    <div class="banner_content animation" data-animation="fadeIn" data-animation-delay="0.8s">
-                        <div id="typed-strings" class="d-none">
-                            <b>scrape data from websites?</b> 
-                            <b>monitor competitor prices?</b>
-                            <b>extract contact leads?</b>
-                            <b>build a custom web scraping tool?</b>
-                            
+<!-- START SECTION BANNER -->
+<section class="banner_section p-0 full_screen">
+        <div class="carousel-inner">
+            <div class="carousel-item active background_bg overlay_bg" data-img-src="assets/images/banner.jpg">
+                <div class="banner_slide_content">
+                    <div class="container"><!-- STRART CONTAINER -->
+                    <div class="row">
+                        <div class="col-lg-12 col-md-12 col-sm-12 text-center">
+                            <div class="banner_content text_white">
+                                <h2 class="animation text-uppercase" data-animation="fadeInDown" data-animation-delay="1s">Accurate Web Scraping Solutions</h2>
+                                
+                                <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">Our full service will get you exactly what required. No software learning.</p>
+                                <a class="btn btn-default animation" href="#request-a-free-quote" data-animation="fadeInUp" data-animation-delay="1.8s">Request a Free Quote</a>
+                                <a class="btn btn-outline-white animation" href="/reviews" data-animation="fadeInUp" data-animation-delay="1.8s">See our past client reviews</a>
+                            </div>
                         </div>
-                        
-                        <h3 class="animation" data-animation="fadeInLeft" data-animation-delay="1s" style="color:white; font-size: 1.75rem;">Want to <span id="typed-text" class="text_default"></span></h3>
-                        
-                        <p class="animation my-4" data-animation="fadeInLeft" data-animation-delay="1.5s" style="color:white;"><strong>ExactData</strong> scrape and deliver just <b>exactly</b> what you need.</p>
-
-                        <p class="animation my-4 text-center" data-animation="fadeInLeft" data-animation-delay="1.5s" style="color:white;"><a href="/reviews" class="text_default"><b>past client reviews</b></a></p>
-
                     </div>
+                </div><!-- END CONTAINER-->
                 </div>
             </div>
-        </div><!-- END CONTAINER-->
-    </div>
+            
+            
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev"><i class="ion-chevron-left"></i></a>
+        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next"><i class="ion-chevron-right"></i></a>
+    
 </section>
-
+<!-- END SECTION BANNER --> 
 <!-- END SECTION BANNER --> 
 
 <!-- START SECTION BLOG -->
@@ -260,7 +300,8 @@
             <div class="col-lg-4 mt-lg-0 mt-4 pt-3 pt-lg-0">
             	<div class="sidebar">
                     <div class="widget">
-                        <form action="https://formspree.io/request@exactdata.io" method="POST">
+                        <a name="request-a-free-quote">
+<form action="https://formspree.io/request@exactdata.io" method="POST">
 
     <div class="service-form">
         <div class="row">
@@ -297,7 +338,7 @@
                 </div>
             </div>
             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12 ">
-                <button type="submit" name="singlebutton" class="btn btn-default btn-block mb10">Send Request</button>
+                <button type="submit" onclick="gtag_report_conversion()" class="btn btn-default btn-block mb10">Send Request</button>
                 <p><small>We will analyse and reply within 24 hours.</small></p>
             </div>
         </div>
