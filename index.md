@@ -5,7 +5,7 @@ keywords: web scraping services, price monitoring services, reliable web scrapin
 description: ExactData provide web scraping, price monitoring services. Our full services will build and setup everything for you.
 ---
 
-<div class="row align-items-center animation animated fadeInUp" data-animation="fadeInUp" data-animation-delay="0.1s" style="animation-delay: 0.1s; opacity: 1;">
+<div>
     
     <div class="heading_s1"> 
       <h3>What we do</h3>
