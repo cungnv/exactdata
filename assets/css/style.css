@@ -1475,6 +1475,14 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 	position: relative;
 }
 
+.list_style_6 li
+{
+	
+	list-style: outside none none;
+	padding: 10px 10px 10px 25px;
+	position: relative;
+}
+
 .list_style_1 li::before {
 	content: "\f121";
 	font-family: ionicons;
@@ -1514,11 +1522,19 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 	position: absolute;
 	top: 10px;
 }
+.list_style_6 li::before {
+	content: "\f121";
+	font-family: ionicons;
+	left: 0;
+	position: absolute;
+	top: 10px;
+}
 
 .list_style_1.color_blue li::before,
 .list_style_2.color_blue li::before,
 .list_style_4.color_blue li::before,
-.list_style_5.color_blue li::before {
+.list_style_5.color_blue li::before,
+.list_style_6.color_blue li::before {
 	color: #0e93d8;
 }
 .list_style_3.color_blue li::before {

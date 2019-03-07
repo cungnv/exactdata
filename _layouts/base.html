@@ -16,11 +16,8 @@
 {%endif%}
 
 <!-- SITE TITLE -->
-{% if page.title == 'home' %}
-    <title>{{site.title}}</title>
-{% else %}
-    <title>{{page.title}} | {{site.title}}</title>
-{% endif %}    
+<title>{{page.title}} | {{site.title}}</title>
+
 <!-- Favicon Icon -->
 <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png">
 <!-- Animation CSS -->
@@ -115,8 +112,11 @@ function gtag_report_conversion(url) {
   <div class="container">
     <nav class="navbar navbar-expand-lg"> 
     	<a class="navbar-brand page-scroll" href="/">
-            <img  src="assets/images/logo.png" alt="logo" />
+            <img  src="assets/images/logo.png" alt="ExactData.io" />
         </a>
+
+        <span>transform websites into structured data</span>
+        
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="ion-android-menu"></span> </button>
       	<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav">
@@ -124,17 +124,23 @@ function gtag_report_conversion(url) {
                     <a class="nav-link" href="/">Home</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="/reviews">Reviews</a>
+                    <a class="nav-link page-scroll" href="#services">Services</a>
+                </li>
+
+                <li>
+                    <a class="nav-link page-scroll" href="#how-it-works">How it works</a>
                 </li>
                 
                 <li>
-                    <a class="nav-link" href="/how-it-works">How it works</a>
+                    <a class="nav-link page-scroll" href="#request-a-quote">Get started</a>
                 </li>
+                
                 <li>
-                    <a class="nav-link" href="/what-to-expect">What to expect</a>
+                    <a class="nav-link page-scroll" href="#reviews">Reviews</a>
                 </li>
+                
                 <li>
-                    <a class="nav-link" href="/faq">FAQ</a>
+                    <a class="nav-link page-scroll" href="#pricing">Pricing</a>
                 </li>
                 
             </ul>
@@ -156,7 +162,7 @@ function gtag_report_conversion(url) {
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
                 	<h6 class="widget_title">Our Story</h6>
 
-                    <p>We started off web scraping career on <a href="{{ site.upwork_profile_url }}" target="_blank"><strong class="text_default">Upwork</strong></a>, since 2008. After many years of sucess there, we created our own brand, ExactData.io, focusing on accurate data and flexible solutions.</p>
+                    <p>We started off web scraping career on <a href="{{ site.upwork_profile_url }}" target="_blank"><strong class="text_default">Upwork</strong></a>, since 2008. After years of sucess there, we started ExactData.io to serve clients easier, focusing on accurate data and flexible solutions.</p>
                     
                 </div>
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
@@ -172,17 +178,23 @@ function gtag_report_conversion(url) {
                             <span class="ti-email"></span>
                             <a href="mailto:request@exactdata.io">request@exactdata.io</a>
                         </li>
+
+                        <li>
+                            <span class="ti-email"></span>
+                            <a class="page-scroll" href="#request-a-quote">Request a Quote</a>
+                        </li>
+
                         
                     </ul>
                 </div>
 
                 <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-                    <h6 class="widget_title">Useful Pages</h6>
+                    <h6 class="widget_title">Useful Links</h6>
                     <ul class="list_none widget_links">
-                        <li><a href="/reviews">ExactData Reviews</a></li>
-                        <li><a href="/how-it-words">How it works</a></li>
-                        <li><a href="/what-to-expect">What to expect</a></li>
-                        <li><a href="/faq">Frequently Asked Questions</a></li>
+                        <li><a class="page-scroll" href="#reviews">Past Client Reviews</a></li>
+                        <li><a class="page-scroll" href="#services">Our services</a></li>
+                        <li><a class="page-scroll" href="#how-it-works">How it works</a></li>
+                        <li><a class="page-scroll" href="#what-to-expect">What to expect</a></li>
                     </ul>
                 </div>
                 
