@@ -39,7 +39,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 
                 </p>
                 <p>
-                    We have massive of experiences with scraping data from all types of data sources: Google, Maps, Amazon, Yellow Pages, etc.
+                    We have massive experiences with scraping data from all types of data sources: Google, Maps, Amazon, Yellow Pages, Social media sites, etc.
                 </p>
 
                 <p>
