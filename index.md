@@ -1,5 +1,5 @@
 ---
-title: Customized web scraping solutions
+title: Custom web scraping services
 layout: base
 keywords: web scraping services, price monitoring services, reliable web scraping services, best web scraping services, custom web scraping service
 description: ExactData provide web scraping, price monitoring services. Our full services will build and setup everything for you.
@@ -27,22 +27,20 @@ description: ExactData provide web scraping, price monitoring services. Our full
                   <h4>Web data extraction service</h4>
                 </div>
 
-                <p>
-                    Ideal for one-time web data extraction needs.
+                <p class="text-center">
+                    <small>ideal for one-time web data extraction need</small>
                     
                 </p>
                 <p>
-                    We will help pulling exactly what you need, and deliver the data in the structure/format of your choice.
+                    You tell us the website(s) and the kind of data needed from it.
+                    Our scraping experts will pull exactly what you need, in the structure/format of your choice.
                 </p>
-                <p>
-                        Our flexible solution can accurately parse all kinds of data points: name, price, categories, images, email, website URL, phone#, address components, location lat/lng, description, social media links, etc. 
                 
-                </p>
                 <p>
                     We have massive experiences with scraping data from all types of data sources: Google, Maps, Amazon, Yellow Pages, Social media sites, etc.
                 </p>
 
-                <p>
+                <p class="text-center">
                     <a class="text_default page-scroll" href="#request-a-quote"><b>Get started now</b></a>
                 </p>
 
@@ -53,12 +51,13 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 <div class="text-center"> 
                   <h4>Price monitoring service</h4>
                 </div>
-
+                <p class="text-center">to monitor product prices from websites<small></small></p>
                 <p>
-                    Want to monitor product prices from your competitor website?
+                    
+                    You tell us the website(s) or products to track prices/inventory status daily/weekly.
                     <br/>
-                    We will help building the scraper to crawl those products daily/weekly.
-                    Depend on your need, it'll extract price, name, images, inventory level, etc. and send you the data feed continuously.
+                    We build the scraper to crawl those products regulary.
+                    Depending on your need, it'll extract price, name, images, inventory level, etc. and send you the data feed continuously.
                     
                 </p>
                 
@@ -69,7 +68,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 <p>
                     Our experts will take care of the maintenance to make sure it'll run smoothly.
                 </p>
-                <p>
+                <p class="text-center">
                     <a class="text_default page-scroll" href="#request-a-quote"><b>Get started now</b></a>
                 </p>
 
