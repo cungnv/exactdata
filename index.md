@@ -24,13 +24,9 @@ description: ExactData provide web scraping, price monitoring services. Our full
         <div class="row justify-content-center">
             <div class="col-lg-6">
                 <div class="text-center"> 
-                  <h4>Web data extraction service</h4>
+                  <h4>Web data extraction</h4>
                 </div>
 
-                <p class="text-center">
-                    <small>ideal for one-time web data extraction need</small>
-                    
-                </p>
                 <p>
                     You tell us the website(s) and the kind of data needed from it.
                     Our scraping experts will pull exactly what you need, in the structure/format of your choice.
@@ -49,25 +45,18 @@ description: ExactData provide web scraping, price monitoring services. Our full
 
             <div class="col-lg-6">
                 <div class="text-center"> 
-                  <h4>Price monitoring service</h4>
+                  <h4>Price monitoring</h4>
                 </div>
-                <p class="text-center">to monitor product prices from websites<small></small></p>
+                
                 <p>
-                    
                     You tell us the website(s) or products to track prices/inventory status daily/weekly.
-                    <br/>
+                </p>
+                <p>
                     We build the scraper to crawl those products regulary.
                     Depending on your need, it'll extract price, name, images, inventory level, etc. and send you the data feed continuously.
                     
                 </p>
                 
-                <p>
-                    The scraper can also compare the historical data to send you notifications of newly-added/removed products.
-                </p>
-
-                <p>
-                    Our experts will take care of the maintenance to make sure it'll run smoothly.
-                </p>
                 <p class="text-center">
                     <a class="text_default page-scroll" href="#request-a-quote"><b>Get started now</b></a>
                 </p>
