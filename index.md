@@ -1,5 +1,5 @@
 ---
-title: Reliable web scraping services
+title: Professional Web Scraping Services
 layout: base
 keywords: web scraping services, price monitoring services, reliable web scraping services, best web scraping services, custom web scraping service
 description: ExactData provide web scraping, price monitoring services. Our full services will build and setup everything for you.
@@ -11,111 +11,55 @@ description: ExactData provide web scraping, price monitoring services. Our full
 
 <!-- END SECTION BANNER --> 
 
-<section id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <div class="heading_s2 text-center"> 
-                  <h3>Our services</h3>
-                </div>
-            </div>
-        </div>        
-
-        <div class="row justify-content-center">
-            <div class="col-lg-6">
-                <div class="text-center"> 
-                  <h4>Web data extraction</h4>
-                </div>
-
-                <p>
-                    You tell us the website(s) and the kind of data needed from it.
-                    Our scraping experts will pull exactly what you need, in the structure/format of your choice.
-                </p>
-                
-                <p>
-                    We have massive experiences with scraping data from all types of data sources: Google, Maps, Amazon, Yellow Pages, Social media sites, etc.
-                </p>
-
-                <p class="text-center">
-                    <a class="text_default page-scroll" href="#request-a-quote"><b>Get started now</b></a>
-                </p>
-
-
-            </div>    
-
-            <div class="col-lg-6">
-                <div class="text-center"> 
-                  <h4>Price monitoring</h4>
-                </div>
-                
-                <p>
-                    You tell us the website(s) or products to track prices/inventory status daily/weekly.
-                </p>
-                <p>
-                    We build the scraper to crawl those products regulary.
-                    Depending on your need, it'll extract price, name, images, inventory level, etc. and send you the data feed continuously.
-                    
-                </p>
-                
-                <p class="text-center">
-                    <a class="text_default page-scroll" href="#request-a-quote"><b>Get started now</b></a>
-                </p>
-
-
-            </div>    
-
-        </div>    
-            
-    </div>
-
-</section>    
-
-<section id="how-it-works" class="light_gray_bg">
+<section id="simple-process">
     <div class="container">
         <div class="row">
             <div class="col-3">&nbsp;</div>
             <div class="col-lg-6">
                 
                 <div class="heading_s2 text-center"> 
-                  <h3>How it works</h3>
+                  <h3>Simple Process</h3>
                 </div>
 
                 <div class="list_style_5">
                     <h5>The job will be done in three simple, risk-free steps:</h5>
                     <ul>
-                        <li><b class="text_default">Job discussion</b>: We'll analyze your job request, discuss it further if required, to fully undertand what you need. Upon agreement for cost and timeframe, we'll ask for 20% upfront payment.</li>
+                        <li><b class="text_default">Understanding your requirement</b>: We'll analyze your job request, discuss it further if required, to fully undertand what you need.</li>
 
-                        <li><b class="text_default">Job processing</b>: Our experts will handle the job, deliver data.</li>
+                        <li><b class="text_default">Scraping the data</b>: Our experts will build a scraper based on your requirement, run it, and deliver data.</li>
                         
-                        <li><b class="text_default">Finalization</b>: Once you are fully satisfied with the results, we'll ask for the remaining payment.</li>
+                        <li><b class="text_default">Payment</b>: Only pay once you are fully satisfied with the results.</li>
                         
                     </ul>
                 </div>
 
             </div>    
             <div class="col-3">&nbsp;</div>
-        </div>    
+        </div>
             
     </div>
         
 </section>
 
-<section id="what-to-expect">
+<section id="benefits" class="light_gray_bg">
     <div class="container">
         <div class="row">
             <div class="col-3">&nbsp;</div>
             <div class="col-lg-6">
                 
                 <div class="heading_s2 text-center"> 
-                  <h3>What to Expect</h3>
+                  <h3>Benefits</h3>
                 </div>
 
                 <div class="list_style_6">
                     <ul>
-                        <li>High quality data: Accurate, no missing records, no duplicates, intuitively structured</li>
-                        <li>Fast turnaround: Normally, it'll take us 1-3 days to complete. Sometimes we may need a week.</li>
-                        <li>High success rate: over 95% your job will be completed successfully. If we fail to do it, your'll be charged nothing, of course.</li>
-                        <li>Responsive communication: you'll be updated with the work status daily.</li>
+
+                        <li><b class="text_default">High quality data</b>: Accurate, no missing records, no duplicates, intuitively structured</li>
+                        <li><b class="text_default">Fast turnaround</b>: Normally, it'll take 1-3 days to complete.</li>
+                        <li><b class="text_default">Competitive price</b>: With great experices in the field, we manage to handle the job effectively, to save you money and time.</li>
+                        <li><b class="text_default">High success rate</b>: over 95% your job will be completed successfully.</li>
+                        <li><b class="text_default">Money back guarantee</b>: No sastifaction, no payment.</li>
+                        <li><b class="text_default">Responsive communication</b>: Daily status updates.</li>
                         
                     </ul>
                 </div>
@@ -123,38 +67,10 @@ description: ExactData provide web scraping, price monitoring services. Our full
             </div>    
             <div class="col-3">&nbsp;</div>
         </div>    
-            
+    
     </div>
         
 </section>
-
-<section id="pricing" class="light_gray_bg">
-    <div class="container">
-        <div class="row">
-            <div class="col-3">&nbsp;</div>
-            <div class="col-lg-6">
-                <div class="heading_s2 text-center"> 
-                  <h3>Pricing</h3>
-                </div>
-
-                <p class="text-center">
-                    We promise you a very competitive price.
-                    <br/>
-                    The cost for each web scraping project depends on the complex of the job, and the number of records.
-                    <br/>
-                    So, in order to estimate the cost effectively, please <a class="text_default page-scroll" href="#request-a-quote"><b>let us know</b></a> your requirements.
-
-                </p>
-
-
-            </div>
-            <div class="col-3">&nbsp;</div>
-        </div>    
-            
-    </div>
-        
-</section>
-
 
 <section id="reviews">
     <div class="container">
@@ -162,7 +78,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
             <div class="col-3">&nbsp;</div>
             <div class="col-lg-6">
                 <div class="heading_s2 text-center"> 
-                  <h3>Past client reviews</h3>
+                  <h3>Real clients said</h3>
                 </div>
 
                 <p class="text-center">
