@@ -5,13 +5,95 @@ keywords: web scraping services, price monitoring services, reliable web scrapin
 description: ExactData provide web scraping, price monitoring services. Our full services will build and setup everything for you.
 ---
 
-<!-- START SECTION BANNER -->
 
-{% include banner.html %}
+<section id="home" class="banner_section background_bg overlay_bg full_screen" data-img-src="assets/images/banner.jpg" style="background: url('assets/images/banner.jpg') center center / cover;">
+    <div class="banner_slide_content">
+        <div class="container"><!-- STRART CONTAINER -->
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-6 col-sm-6">
+                    <div class="banner_content text_white">
+                        <h2 class="animation" data-animation="fadeInDown" data-animation-delay="1s">Harvest Data from Websites</h2>
+                        <h5 style="color:#F36729;">Where Experiences Make a Big Difference.</h5>
+                        
+                        <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">
+                            <b>Scraping data from a website is not difficult.
+                            <br/>
+                            What makes it challenging is, <u>to get all pices of data with 100% accuracy, clean, and without being traced/blocked by its anti-scraping methods</u>.
 
-<!-- END SECTION BANNER --> 
+                        </b>
 
-<section id="workflow" class="small_pb">
+                        </p>
+                            
+
+                    </div>
+                    
+                </div>
+                <div class="col-lg-1 col-md-1 col-sm-1"></div>
+                <div class="col-lg-5 col-md-5 col-sm-5" id="get-a-quote">
+                    <h3 style="color:white;">Ready to discuss your project?</h3>
+                    {% include request_form.html %}
+
+                </div> 
+            </div>
+        </div><!-- END CONTAINER-->
+        <a href="#about" class="down down_white page-scroll"><span class="mouse"><span></span></span></a>
+    </div>
+    
+</section>
+
+<section id="about" class="overflow_hide">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12 mb-4 mb-lg-0 animation animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="0.2s" style="animation-delay: 0.2s; opacity: 1;">
+                <div class="fancy_style">
+                    <img src="assets/images/benefits.jpg" alt="benefits of using exactdata.io">
+                </div>
+            </div>
+            <div class="col-md-6 col-sm-12 animation animated fadeInRight" data-animation="fadeInRight" data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;">
+                
+                <h2>About exactdata.io</h2>
+                <p>
+                    <b>
+                    At exactdata.io, with more than 8 years in the industry, we have all the skills, cloud-based platform to deliver exactly the data you need, from any website, at any scale. We're second to none in terms of quality, flexibility and fast turnaround.      
+                    </b>
+                </p>
+
+                
+                <h4>Benefits of using exactdata</h4>
+                <div class="list_style_6">
+                    <ul>
+
+                        <li><b class="text_default">High quality data</b>: accurate, clean, intuitively structured</li>
+                        <li><b class="text_default">Fast turnaround</b>: we just need 1-3 days to complete a scrape of website with up to 50k records.</li>
+                        <li><b class="text_default">Competitive price</b>: with great experices in the field, we manage to handle the job effectively, to save you money and time.</li>
+                        
+                    </ul>
+                    <p>&nbsp;</p>
+                </div>
+
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cta_section_small bg_blue">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 text_white">
+                            <h2 class="">Try us now and enjoy the peace of mind!</h2>
+                        </div>
+                        <div class="col-md-4 text-md-right">    
+                            <a href="#get-a-quote" class="btn btn-outline-white page-scroll">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
+    </div>
+</section>
+
+
+<section id="workflow"  class="light_gray_bg">
     <div class="container">
         <div class="row mb-4">
             <div class="col-md-12">
@@ -58,62 +140,14 @@ description: ExactData provide web scraping, price monitoring services. Our full
     </div>
 </section>
 
-<section id="benefits" class="overflow_hide">
-    <div class="container">
-        <div class="row align-items-center">
-            <div class="col-md-6 col-sm-12 mb-4 mb-lg-0 animation animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="0.2s" style="animation-delay: 0.2s; opacity: 1;">
-                <div class="fancy_style">
-                    <img src="assets/images/benefits.jpg" alt="benefits of using exactdata.io">
-                </div>
-            </div>
-            <div class="col-md-6 col-sm-12 animation animated fadeInRight" data-animation="fadeInRight" data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;">
-                <div class="heading_s2 text-center"> 
-                  <h2>Benefits of using exactdata</h2>
-                </div>
-                <div class="list_style_6">
-                    <ul>
-
-                        <li><b class="text_default">High quality data</b>: accurate, clean, intuitively structured</li>
-                        <li><b class="text_default">Fast turnaround</b>: we just need 1-3 days to complete a scrape of website with up to 50k records.</li>
-                        <li><b class="text_default">Competitive price</b>: with great experices in the field, we manage to handle the job effectively, to save you money and time.</li>
-                        <li><b class="text_default">High success rate</b>: over 95% your job will be completed successfully.</li>
-                        <li><b class="text_default">Money back guarantee</b>: no satisfaction, no payment.</li>
-                        <li><b class="text_default">Fast communication</b>: you'll be keep posted on the progress.</li>
-                        
-                    </ul>
-                    <p>&nbsp;</p>
-                </div>
 
 
-
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <div class="cta_section_small bg_blue">
-                    <div class="row align-items-center">
-                        <div class="col-md-8 text_white">
-                            <h2 class="">Try us now and enjoy the peace of mind!</h2>
-                        </div>
-                        <div class="col-md-4 text-md-right">    
-                            <a href="#get-a-quote" class="btn btn-outline-white page-scroll">Get started</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>   
-    </div>
-</section>
-
-
-<section id="reviews" class="light_gray_bg">
+<section id="reviews">
     <div class="container">
         <div class="row">
             <div class="col-3">&nbsp;</div>
             <div class="col-lg-6">
-                <div class="heading_s2 text-center"> 
-                  <h3>Our clients said on <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">upwork</a> marketplace</h3>
-                </div>
+                <h3>Our clients said on <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">upwork</a> marketplace</h3>
 
                 <p class="text-center">
                     <ul class="recent_post list_none">
