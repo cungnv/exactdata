@@ -11,74 +11,108 @@ description: ExactData provide web scraping, price monitoring services. Our full
 
 <!-- END SECTION BANNER --> 
 
-<section id="simple-process">
+<section id="workflow" class="small_pb">
     <div class="container">
-        <div class="row">
-            <div class="col-3">&nbsp;</div>
-            <div class="col-lg-6">
-                
-                <div class="heading_s2 text-center"> 
-                  <h3>Simple Process</h3>
+        <div class="row mb-4">
+            <div class="col-md-12">
+                <div class="heading_s2 text-center">
+                    <h3>Workflow: designed to keep you relaxed.</h3>
                 </div>
-
-                <div class="list_style_5">
-                    <h5>The job will be done in three simple, risk-free steps:</h5>
-                    <ul>
-                        <li><b class="text_default">Understanding your requirement</b>: We'll analyze your job request, discuss it further if required, to fully undertand what you need.</li>
-
-                        <li><b class="text_default">Scraping the data</b>: Our experts will build a scraper based on your requirement, run it, and deliver data.</li>
-                        
-                        <li><b class="text_default">Payment</b>: Only pay once you are fully satisfied with the results.</li>
-                        
-                    </ul>
-                </div>
-
-            </div>    
-            <div class="col-3">&nbsp;</div>
+            </div>
         </div>
-            
+        <div class="row justify-content-center">
+            <div class="col-md-4 col-sm-6 mb-md-0 mb-3 text-center">
+                <div class="icon_box">
+                    <div class="box_icon mb-3"> 
+                        <img src="/assets/images/step-requirement.png"/>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Requirement Disucssion</h5>
+                        <p>It's very important to clearly undertand what you need, at the first place, to avoid wasting your valuable time later. Thus, we'd like to review your requirements, discuss with you, one-on-one, to make everything clear.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-md-0 mb-3 text-center">
+                <div class="icon_box">
+                    <div class="box_icon mb-3"> 
+                        <img src="/assets/images/step-process.png"/>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Job Processing</h5>
+                        <p>Once agreement confirmed, including the cost and timeline, our experts will start building the scraper, let it crawl and extract the required data. <u>Not only we build the scraper skillfully, but also carefully do the quality check before sending you the final results</u>.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 mb-md-0 mb-3 text-center">
+                <div class="icon_box">
+                    <div class="box_icon mb-3"> 
+                        <img src="/assets/images/step-payment.png"/>
+                    </div>
+                    <div class="icon_box_content">
+                        <h5>Payment</h5>
+                        <p><b>No satisfaction, no payment</b>. Most of the time, our clients are satisfied with the first version of data.<br/>We'll send payment request once you're happy with what you have.</p>
+                    </div>
+                 </div>
+            </div>
+        </div>
     </div>
-        
 </section>
 
-<section id="benefits" class="light_gray_bg">
+<section id="benefits" class="overflow_hide">
     <div class="container">
-        <div class="row">
-            <div class="col-3">&nbsp;</div>
-            <div class="col-lg-6">
-                
-                <div class="heading_s2 text-center"> 
-                  <h3>Benefits</h3>
+        <div class="row align-items-center">
+            <div class="col-md-6 col-sm-12 mb-4 mb-lg-0 animation animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="0.2s" style="animation-delay: 0.2s; opacity: 1;">
+                <div class="fancy_style">
+                    <img src="assets/images/benefits.jpg" alt="benefits of using exactdata.io">
                 </div>
-
+            </div>
+            <div class="col-md-6 col-sm-12 animation animated fadeInRight" data-animation="fadeInRight" data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;">
+                <div class="heading_s2 text-center"> 
+                  <h2>Benefits of using exactdata</h2>
+                </div>
                 <div class="list_style_6">
                     <ul>
 
-                        <li><b class="text_default">High quality data</b>: Accurate, no missing records, no duplicates, intuitively structured</li>
-                        <li><b class="text_default">Fast turnaround</b>: Normally, it'll take 1-3 days to complete.</li>
-                        <li><b class="text_default">Competitive price</b>: With great experices in the field, we manage to handle the job effectively, to save you money and time.</li>
+                        <li><b class="text_default">High quality data</b>: accurate, clean, intuitively structured</li>
+                        <li><b class="text_default">Fast turnaround</b>: we just need 1-3 days to complete a scrape of website with up to 50k records.</li>
+                        <li><b class="text_default">Competitive price</b>: with great experices in the field, we manage to handle the job effectively, to save you money and time.</li>
                         <li><b class="text_default">High success rate</b>: over 95% your job will be completed successfully.</li>
-                        <li><b class="text_default">Money back guarantee</b>: No sastifaction, no payment.</li>
-                        <li><b class="text_default">Responsive communication</b>: Daily status updates.</li>
+                        <li><b class="text_default">Money back guarantee</b>: no satisfaction, no payment.</li>
+                        <li><b class="text_default">Fast communication</b>: you'll be keep posted on the progress.</li>
                         
                     </ul>
+                    <p>&nbsp;</p>
                 </div>
 
-            </div>    
-            <div class="col-3">&nbsp;</div>
-        </div>    
-    
+
+
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="cta_section_small bg_blue">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 text_white">
+                            <h2 class="">Try us now and enjoy the peace of mind!</h2>
+                        </div>
+                        <div class="col-md-4 text-md-right">    
+                            <a href="#get-a-quote" class="btn btn-outline-white page-scroll">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>   
     </div>
-        
 </section>
 
-<section id="reviews">
+
+<section id="reviews" class="light_gray_bg">
     <div class="container">
         <div class="row">
             <div class="col-3">&nbsp;</div>
             <div class="col-lg-6">
                 <div class="heading_s2 text-center"> 
-                  <h3>Real clients said</h3>
+                  <h3>Our clients said on <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">upwork</a> marketplace</h3>
                 </div>
 
                 <p class="text-center">
@@ -103,26 +137,27 @@ description: ExactData provide web scraping, price monitoring services. Our full
             </div>  
             <div class="col-3">&nbsp;</div>
 
-        </div>    
-            
-    </div>
-        
-</section>
+        </div>
 
-<section id="request-a-quote" class="light_gray_bg">
-    <div class="container">
         <div class="row">
-            <div class="col-3">&nbsp;</div>
-            <div class="col-lg-6">
-                
-                {% include request_form.html %}
+            <div class="col-md-12">
+                <div class="cta_section_small background_bg blue_overlay_bg position-relative fixed_bg" data-img-src="assets/images/cta_bg.jpg" style="background: url('assets/images/cta_bg.jpg') center center / cover;">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 text_white">
+                            <h2 class="">Let us get the data for you now.</h2>
+                        </div>
+                        <div class="col-md-4 text-md-right">    
+                            <a href="#get-a-quote" class="btn btn-outline-white page-scroll">Get started</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-            </div>    
-            <div class="col-3">&nbsp;</div>
-        </div>    
             
     </div>
         
 </section>
+
 
 

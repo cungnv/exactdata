@@ -495,6 +495,7 @@ button:focus {
 }
 .text_default {
 	color: #55bbeb !important;
+	/*color: #F36729 !important;*/
 }
 .text_success {
 	color: #42b574 !important;
@@ -1309,8 +1310,8 @@ header.light_skin.nav-fixed .social_icons li a:hover {
 	object-fit: cover;
 }
 .banner_content h2 {
-	font-size: 70px;
-	font-weight: 700;
+	font-size: 62px;
+	font-weight: 600;
 }
 .banner_content p {
 	color: #333;
