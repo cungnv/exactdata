@@ -59,7 +59,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 </p>
 
                 
-                <h4>Benefits of using exactdata</h4>
+                <h4>Benefits of using our services</h4>
                 <div class="list_style_6">
                     <ul>
 
