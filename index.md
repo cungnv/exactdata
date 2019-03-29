@@ -23,6 +23,9 @@ description: ExactData provide web scraping, price monitoring services. Our full
                         </b>
 
                         </p>
+                        <p class="text-left">
+                            <a class="btn btn-outline-white animation animated fadeInUp page-scroll" href="#about" data-animation="fadeInUp" data-animation-delay="1.8s" style="animation-delay: 1.8s; opacity: 1;">Learn More</a>
+                        </p>
                             
 
                     </div>
@@ -36,7 +39,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 </div> 
             </div>
         </div><!-- END CONTAINER-->
-        <a href="#about" class="down down_white page-scroll"><span class="mouse"><span></span></span></a>
+        <!-- <a href="#about" class="down down_white page-scroll"><span class="mouse"><span></span></span></a> -->
     </div>
     
 </section>
@@ -66,6 +69,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                         <li><b class="text_default">High quality data</b>: accurate, clean, intuitively structured</li>
                         <li><b class="text_default">Fast turnaround</b>: we just need 1-3 days to complete a scrape of website with up to 50k records.</li>
                         <li><b class="text_default">Competitive price</b>: with great experices in the field, we manage to handle the job effectively, to save you money and time.</li>
+                        <li><b class="text_default">Money back guarantee</b>: you'll be charged nothing if not fully satisfied with the results.</li>
                         
                     </ul>
                     <p>&nbsp;</p>
@@ -75,6 +79,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
 
             </div>
         </div>
+
         <div class="row">
             <div class="col-md-12">
                 <div class="cta_section_small bg_blue">
@@ -96,10 +101,8 @@ description: ExactData provide web scraping, price monitoring services. Our full
 <section id="workflow"  class="light_gray_bg">
     <div class="container">
         <div class="row mb-4">
-            <div class="col-md-12">
-                <div class="heading_s2 text-center">
-                    <h3>Workflow: designed to keep you relaxed.</h3>
-                </div>
+            <div class="col-md-12 text-center">
+                <h3>Workflow: designed to keep you relaxed.</h3>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -147,8 +150,9 @@ description: ExactData provide web scraping, price monitoring services. Our full
         <div class="row">
             <div class="col-3">&nbsp;</div>
             <div class="col-lg-6">
-                <h3>Our clients said on <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">upwork</a> marketplace</h3>
-
+                <div class="text-center">
+                    <h3>Our clients said on <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">upwork</a> marketplace</h3>
+                </div>
                 <p class="text-center">
                     <ul class="recent_post list_none">
                         {% for review in site.data.reviews limit:10 %}
