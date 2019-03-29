@@ -145,57 +145,73 @@ description: ExactData provide web scraping, price monitoring services. Our full
 
 
 
-<section id="reviews">
+
+<section id="reviews" class="bg-dark background_bg fixed_bg bg_size_auto" data-img-src="assets/images/icon_pattern.png"> 
     <div class="container">
-        <div class="row">
-            <div class="col-3">&nbsp;</div>
-            <div class="col-lg-6">
-                <div class="text-center">
-                    <h3>Our clients said on <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">upwork</a> marketplace</h3>
-                </div>
-                <p class="text-center">
-                    <ul class="recent_post list_none">
-                        {% for review in site.data.reviews limit:10 %}
-                        <li>
-                            <blockquote class="blockquote quote_style2">
-                              <b><i>{{review.job}}</i></b>  
-                              <p>{{review.comment}}</p>
-                              <footer class="blockquote-footer"><i>posted by</i> <b>{{review.client}}</b>, <i>from</i> <a target="_blank" href="{{site.upwork_profile_url}}">Upwork</a></footer>
-                            </blockquote>
-                            <br/>
-                        </li>
-                        {% endfor %}
-                        
-                    </ul>
-
-
-                </p>
-                
-
-            </div>  
-            <div class="col-3">&nbsp;</div>
-
-        </div>
-
-        <div class="row">
+        <div class="row mb-4">
             <div class="col-md-12">
-                <div class="cta_section_small background_bg blue_overlay_bg position-relative fixed_bg" data-img-src="assets/images/cta_bg.jpg" style="background: url('assets/images/cta_bg.jpg') center center / cover;">
-                    <div class="row align-items-center">
-                        <div class="col-md-8 text_white">
-                            <h2 class="">Let us get the data for you now.</h2>
-                        </div>
-                        <div class="col-md-4 text-md-right">    
-                            <a href="#get-a-quote" class="btn btn-outline-white page-scroll">Get started</a>
+                <div class="heading_s3 heading_light text-center">
+                    <h3>Our reviews from <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">Upwork</a> marketplace</h3>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-md-12">
+                <div class="testimonial_slider testimonial_style3 text_white carousel_slide3 owl-carousel owl-theme" data-margin="10" data-center="true" data-loop="true" data-autoplay="true">
+                    {% for review in site.data.reviews %}
+                    <div class="item">
+                        <div class="testimonial_box">
+                            <div class="testi_meta">
+
+                                <div class="quote">
+                                    <img src="assets/images/quote.png" alt="quote">
+                                </div>
+                                
+                                <p>{{ review.comment }}</p>
+                            </div>
+                            <div class="testimonial_cl_info">
+                                
+                                <div class="client_info">
+                                    
+                                    <span>
+                                        <small>Job: {{review.job}}</small>
+                                        <br/>
+                                        <small>
+                                        <i>posted by</i> <b>{{review.client}}</b>, <i>from</i> <a target="_blank" href="{{site.upwork_profile_url}}">Upwork</a>
+                                        </small>
+                                    </span>
+                                </div>
+                            </div>
                         </div>
                     </div>
+                    {% endfor %}
+                    
+                    
                 </div>
             </div>
         </div>
 
-            
-    </div>
         
-</section>
 
+    </div>
+</section>
+<section>
+    <div class="container">
+        <div class="row">
+                    <div class="col-md-12">
+                        <div class="cta_section_small background_bg blue_overlay_bg position-relative fixed_bg" data-img-src="assets/images/cta_bg.jpg" style="background: url('assets/images/cta_bg.jpg') center center / cover;">
+                            <div class="row align-items-center">
+                                <div class="col-md-8 text_white">
+                                    <h2 class="">Let us get the data for you now.</h2>
+                                </div>
+                                <div class="col-md-4 text-md-right">    
+                                    <a href="#get-a-quote" class="btn btn-outline-white page-scroll">Get started</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        </div>
+    </div>
+</section>
 
 
