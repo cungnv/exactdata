@@ -49,7 +49,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
         <div class="row align-items-center">
             <div class="col-md-6 col-sm-12 mb-4 mb-lg-0 animation animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="0.2s" style="animation-delay: 0.2s; opacity: 1;">
                 <div class="fancy_style">
-                    <img src="assets/images/benefits.jpg" alt="benefits of using exactdata.io">
+                    <img src="assets/images/about.jpg" alt="about exactdata.io">
                 </div>
             </div>
             <div class="col-md-6 col-sm-12 animation animated fadeInRight" data-animation="fadeInRight" data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;">
@@ -57,7 +57,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 <h2>About exactdata.io</h2>
                 <p>
                     <b>
-                    At exactdata.io, with more than 8 years in the industry, we have all the skills, cloud-based platform to deliver exactly the data you need, from any website, at any scale. We're second to none in terms of quality, flexibility and fast turnaround.      
+                    At exactdata.io, with more than 8 years in the industry, we possess the skills, experiences, and a cloud-based platform to deliver exactly the data you need, from any website, at any scale.
                     </b>
                 </p>
 
@@ -72,13 +72,19 @@ description: ExactData provide web scraping, price monitoring services. Our full
                         <li><b class="text_default">Money back guarantee</b>: you'll be charged nothing if not fully satisfied with the results.</li>
                         
                     </ul>
-                    <p>&nbsp;</p>
+                    
                 </div>
 
 
 
             </div>
         </div>
+
+         
+    </div>
+</section>
+<section>
+    <div class="container">
 
         <div class="row">
             <div class="col-md-12">
@@ -93,10 +99,10 @@ description: ExactData provide web scraping, price monitoring services. Our full
                     </div>
                 </div>
             </div>
-        </div>   
+        </div>  
+
     </div>
 </section>
-
 
 <section id="workflow"  class="light_gray_bg">
     <div class="container">
