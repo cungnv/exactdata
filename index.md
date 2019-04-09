@@ -13,17 +13,10 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 <div class="col-lg-6 col-md-6 col-sm-6">
                     <div class="banner_content text_white">
                         <h2 class="animation" data-animation="fadeInDown" data-animation-delay="1s">Harvest Data from Websites</h2>
-                        <h5 style="color:#F36729;">Where Experiences Make a Big Difference.</h5>
+                        <h5 style="color:#F36729;">Quickly, Accurately, and Affordably.</h5>
                         
-                        <p class="animation my-4" data-animation="fadeInUp" data-animation-delay="1.5s">
-                            <b>Scraping data from a website is not difficult.
-                            <br/>
-                            The real challenge is, <u>to get all pices of data with 100% accuracy, without being blocked by its anti-scraping methods</u>.
-
-                        </b>
-
-                        </p>
                         <p class="text-left">
+                            <br/>
                             <a class="btn btn-outline-white animation animated fadeInUp page-scroll" href="#about" data-animation="fadeInUp" data-animation-delay="1.8s" style="animation-delay: 1.8s; opacity: 1;">Learn More</a>
                         </p>
                             
@@ -33,8 +26,9 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 </div>
                 <div class="col-lg-1 col-md-1 col-sm-1"></div>
                 <div class="col-lg-5 col-md-5 col-sm-5" id="get-a-quote">
-                    <h3 style="color:white;">Ready to discuss your project?</h3>
+                    <h3 style="color:white;">Get a Free Quote Today</h3>
                     {% include request_form.html %}
+                    
 
                 </div> 
             </div>
@@ -55,21 +49,19 @@ description: ExactData provide web scraping, price monitoring services. Our full
             <div class="col-md-6 col-sm-12 animation animated fadeInRight" data-animation="fadeInRight" data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;">
                 
                 <h2>About exactdata.io</h2>
-                <p>
-                    <b>
-                    At exactdata.io, with more than 8 years in the industry, we possess the skills, experiences, and a cloud-based platform to deliver exactly the data you need, from any website, at any scale.
-                    </b>
-                </p>
-
+                <p><b>
+                    We specialize in building web scrapers, also called web crawlers, to pull data from any websites programmatically. This technique saves you lots of time and money, compared to manually copy/paste process. We can scrape data from any websites, at any scale.
+                </b></p>
                 
-                <h4>Benefits of using our services</h4>
+                <h4>Why choose exactdata.io?</h4>
                 <div class="list_style_6">
                     <ul>
 
-                        <li><b class="text_default">High quality data</b>: accurate, clean, intuitively structured</li>
-                        <li><b class="text_default">Fast turnaround</b>: we just need 1-3 days to complete a scrape of website with up to 50k records.</li>
-                        <li><b class="text_default">Competitive price</b>: with great experices in the field, we manage to handle the job effectively, to save you money and time.</li>
-                        <li><b class="text_default">Money back guarantee</b>: you'll be charged nothing if not fully satisfied with the results.</li>
+                        <li><b class="text_default">High quality data</b>: we always double check the data to ensure everything is great to deliver.</li>
+                        <li><b class="text_default">Fast turnaround</b>: you can expect results within 2 days.</li>
+                        <li><b class="text_default">Affordable price</b>: receive the best quality at a competitive price.</li>
+                        <li><b class="text_default">No upfront payment</b>: pay nothing until the job done.</li>
+                        <li><b class="text_default">Friendly experts</b>: to discuss your project effectively.</li>
                         
                     </ul>
                     
