@@ -56,10 +56,6 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 Or <b>profiles</b> on social medias.
                 
                 <br/><br/>
-                
-                Whatever you can see on the Web, we can collect for you, at business scale, for affordable cost.
-
-                <br/><br/>
 
                 <b>Our goal is to help you pull exactly what you need, from your target website into structured databases or spreadsheets.</b>
 
