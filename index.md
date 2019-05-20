@@ -24,8 +24,8 @@ description: ExactData provide web scraping, price monitoring services. Our full
                     </div>
                     
                 </div>
-                <div class="col-lg-1 col-md-1 col-sm-1"></div>
-                <div class="col-lg-5 col-md-5 col-sm-5" id="get-a-quote">
+                
+                <div class="col-lg-6 col-md-6 col-sm-6" id="get-a-quote">
                     <h3 style="color:white;">Get a Free Quote Today</h3>
                     {% include request_form.html %}
                     
@@ -38,69 +38,92 @@ description: ExactData provide web scraping, price monitoring services. Our full
     
 </section>
 
-<section id="about" class="overflow_hide">
+<section id="about">
     <div class="container">
         <div class="row align-items-center">
-            <div class="col-md-6 col-sm-12 mb-4 mb-lg-0 animation animated fadeInLeft" data-animation="fadeInLeft" data-animation-delay="0.2s" style="animation-delay: 0.2s; opacity: 1;">
-                <div class="fancy_style">
-                    <img src="assets/images/about.jpg" alt="about exactdata.io">
-                </div>
+            <div class="heading_s3 heading_light text-center">
+                    <h1 class="headline">The most effective web scraping company</h1>
             </div>
+            <div class="col-md-8 col-sm-12 animation animated fadeInRight" data-animation="fadeInRight" data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;">
+                
+                <p>
+                Looking to harvest <b>valuable data</b> from a <b>target website</b> to empower your business?
+                <br/>
+                Product prices on retailer websites, Amazon, suppliers ...?
+                <br/>
+                List data on yellow pages, search engines ...?
+                <br/>
+                Profiles on Social medias?
+                <br/>
+                Whatever you can see on the Web, we can collect for you, at business scale, for affordable cost.
+
+                <br/><br/>
+
+                <b>Our goal is to help you pull exactly what you need, from your target website into structured databases or spreadsheets.</b>
+
+                <br/><br/>
+
+                The scraped data will be double checked for quality and accuracy, by both automated system and human as well.
+                </p>
+                 
+                
+
+            </div>
+        </div> 
+        <div class="row">
             <div class="col-md-6 col-sm-12 animation animated fadeInRight" data-animation="fadeInRight" data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;">
-                
-                <h2>About exactdata.io</h2>
-                <p><b>
-                    We specialize in building web scrapers, also called web crawlers, to pull data from any websites programmatically. This technique saves you lots of time and money, compared to manually copy/paste process. We can scrape data from any websites, at any scale.
-                </b></p>
-                
-                <h4>Why choose exactdata.io?</h4>
+                <h2 class="headline">Why choose exactdata.io?</h2>
+                <p>
+                If you are looking for the <b>best quality</b> with <b>affordable price</b>, exactdata.io is a reliable choice.
+                We have great talents and experiences to deliver.
+                <br/><br/>
+                Following are some more benefits when working with us:
+                </p>
                 <div class="list_style_6">
                     <ul>
 
-                        <li><b class="text_default">High quality data</b>: we always double check the data to ensure everything is great to deliver.</li>
-                        <li><b class="text_default">Fast turnaround</b>: you can expect results within 2 days.</li>
-                        <li><b class="text_default">Affordable price</b>: receive the best quality at a competitive price.</li>
-                        <li><b class="text_default">No upfront payment</b>: pay nothing until the job done.</li>
-                        <li><b class="text_default">Friendly experts</b>: to discuss your project effectively.</li>
+                        <li><b>Meet your requirements</b>: We use Python-based framework, not generic software, so we can perfectly adapt to your need.</li>
+                        <li><b>Fast turnaround</b>: you can expect results within 1-2 days, for a basic web scraping task.</li>
+                        <li><b>Scalable</b>: with millions of proxies and cloud-based servers, we can scrape thousands of sites at the same time.</li>
+                        <li><b>Money back guarantee</b>: No good data, no payment at all. Plus, we only require <b>20% upfront</b> payment, making it easy to start.</li>
+                        <li><b>Success proven</b>: See what people said about us on <a class="text_default" href="{{site.upwork_profile_url}}" target="_blank"><b>Upwork</b></a>.</li>
                         
                     </ul>
                     
                 </div>
-
-
-
             </div>
-        </div>
 
-         
-    </div>
-</section>
-<section>
-    <div class="container">
+            <div class="col-md-6 col-sm-12 animation animated fadeInRight" data-animation="fadeInRight" data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;">
+                <h2 class="headline">Our web scraping abilities:</h2>
+                <div class="list_style_6">
+                    <ul>
 
-        <div class="row">
-            <div class="col-md-12">
-                <div class="cta_section_small bg_blue">
-                    <div class="row align-items-center">
-                        <div class="col-md-8 text_white">
-                            <h2 class="">Try us now and enjoy the peace of mind!</h2>
-                        </div>
-                        <div class="col-md-4 text-md-right">    
-                            <a href="#get-a-quote" class="btn btn-outline-white page-scroll">Get started</a>
-                        </div>
-                    </div>
+                        <li><b>Scrape product pricing data from e-commerce websites.</b></li>
+                        <li><b>Create product data feeds from a target website.</b></li>
+                        <li><b>Compare product prices accross websites.</b></li>
+                        <li><b>Monitor pricing changes for given websites</b></li>
+                        <li><b>Scrape contact leads from yellow pages, directories, Google etc.</b></li>
+                        <li><b>Or to scrape whatever you can see on a website.</b></li>
+                        
+                    </ul>
+                    
                 </div>
             </div>
-        </div>  
 
-    </div>
+
+
+        </div>
+   
+    </div>    
 </section>
 
 <section id="workflow"  class="light_gray_bg">
     <div class="container">
         <div class="row mb-4">
             <div class="col-md-12 text-center">
-                <h3>Workflow: designed to keep you relaxed.</h3>
+                <div class="heading_s3 heading_light text-center">
+                    <h1 class="headline">Workflow: safe and simple</h1>
+                </div>
             </div>
         </div>
         <div class="row justify-content-center">
@@ -111,7 +134,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                     </div>
                     <div class="icon_box_content">
                         <h5>Requirement Disucssion</h5>
-                        <p>It's very important to clearly undertand what you need, at the first place, to avoid wasting your valuable time later. Thus, we'd like to review your requirements, discuss with you, one-on-one, to make everything clear.</p>
+                        <p>First thing first, we'd love to chat with you to understand your need clearly.</p>
                     </div>
                 </div>
             </div>
@@ -122,7 +145,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                     </div>
                     <div class="icon_box_content">
                         <h5>Job Processing</h5>
-                        <p>Once agreement confirmed, including the cost and timeline, our experts will start building the scraper, let it crawl and extract the required data. <u>Not only we build the scraper skillfully, but also carefully do the quality check before sending you the final results</u>.</p>
+                        <p>Our web scraping experts will build a custom web scraper (bot, crawler) to pull all required data.<br/>Again, the scraped data must be double checked for quality and accuracy.</p>
                     </div>
                 </div>
             </div>
@@ -133,7 +156,7 @@ description: ExactData provide web scraping, price monitoring services. Our full
                     </div>
                     <div class="icon_box_content">
                         <h5>Payment</h5>
-                        <p><b>No satisfaction, no payment</b>. Most of the time, our clients are satisfied with the first version of data.<br/>We'll send payment request once you're happy with what you have.</p>
+                        <p><b>No satisfaction, no payment</b>. To save both of us valuable time, we want to make sure the results are perfect at the first version.</p>
                     </div>
                  </div>
             </div>
@@ -142,14 +165,12 @@ description: ExactData provide web scraping, price monitoring services. Our full
 </section>
 
 
-
-
 <section id="reviews" class="bg-dark background_bg fixed_bg bg_size_auto" data-img-src="assets/images/icon_pattern.png"> 
     <div class="container">
         <div class="row mb-4">
             <div class="col-md-12">
                 <div class="heading_s3 heading_light text-center">
-                    <h3>Our reviews from <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">Upwork</a> marketplace</h3>
+                    <h1 class="headline">Our reviews from <a href="{{site.upwork_profile_url}}" target="_blank" class="text_default">Upwork</a> marketplace</h1>
                 </div>
             </div>
         </div>
