@@ -49,12 +49,14 @@ description: ExactData provide web scraping, price monitoring services. Our full
                 <p>
                 Looking to harvest <b>valuable data</b> from a <b>target website</b> to empower your business?
                 <br/>
-                Product prices on retailer websites, Amazon, suppliers ...?
+                From <b>product prices</b> on retailer websites, Amazon, suppliers, ...
                 <br/>
-                List data on yellow pages, search engines ...?
+                To <b>list data</b> on yellow pages, search engines, ...
                 <br/>
-                Profiles on Social medias?
-                <br/>
+                Or <b>profiles</b> on social medias.
+                
+                <br/><br/>
+                
                 Whatever you can see on the Web, we can collect for you, at business scale, for affordable cost.
 
                 <br/><br/>
